@@ -23,6 +23,6 @@ class SumCalculatorTest {
     }
     @Test
     void sumExeptionTest() {
-        Assertions.assertThrows(IllegalArgumentException.class,()->sumCalculator.sum(0));
+        Assertions.assertThrows(IllegalArgumentException.class, ()->sumCalculator.sum(0));
     }
 }
